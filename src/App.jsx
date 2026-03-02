@@ -349,7 +349,7 @@ const css = `
 `;
 
 export default function App() {
-  const [lang, setLang] = useState("ru");
+  const [lang, setLang] = useState("en");
   const t = T[lang];
   const [section, setSection] = useState("hero");
 
